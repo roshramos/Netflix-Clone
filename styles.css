@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+section {
+    background-color: #141414;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+}
+
+nav {
+    height: 56px;
+    display: flex;
+}
+
+
+/* 
+
+USER SELECT
+
+*/
+
+
+#manage__users {
+
+}
+
+.row__user-select {
+    align-items: center;
+}
+
+.user-select__nav {
+    background-color: black;
+    padding: 0 40px;
+    align-items: center;
+}
+
+.nav__logo {
+    height: 120px;
+}
+
+.user-select__page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.container__user-select {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.user__select {
+    display: flex;
+    text-align: center;
+    margin: 16px;
+    cursor: pointer;
+}
+
+.user-name:hover {
+    color: white;
+}
+.user__img--wrapper:hover {
+    outline: 4px solid white;
+    outline-offset: -5px;
+    color: white;
+}
+
+.user__img--wrapper {
+    margin: 16px 16px 4px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding-bottom: ;
+}
+
+.user-name {
+    text-align: center;
+    color: #808080;
+}
+
+.profile--btn {
+    margin-top: 40px;
+    padding: 4px 16px;
+    border: solid 2px #808080;
+    cursor: pointer;
+    color: #808080;
+}
+
+.profile--btn:hover {
+    color: white;
+    border: solid 2px white;
+}
