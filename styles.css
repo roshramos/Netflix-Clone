@@ -24,14 +24,19 @@ section {
     background-color: #141414;
 }
 
-body {
+.background {
     background-color: #141414;
     color: white;
 }
 
-.background {
+body {
     background-image: url(./assets/bg.jpg);
     background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color: white;
+    background-color: #141414;
 }
 
 nav {
@@ -130,8 +135,44 @@ NAVIGATION
 }
 
 
+/* 
 
+LANDING PAGE 
 
+*/
+
+.container {
+    width: 100%;
+    height: ;
+    top: -80px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    
+}
+
+.logo {
+    height: 96px;
+}
+
+.logo__wrapper {
+    height: 16px;
+}
+
+.interact-btns {
+    display: flex;
+}
+
+.play-btn {
+    display: flex;
+}
+
+.info-btn {
+    display: flex;
+}
 
 
 
