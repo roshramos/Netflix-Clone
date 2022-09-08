@@ -6,9 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <script src="./index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a87716da66.js"crossorigin="anonymous"></script>
+    <script src="/index.js"></script>
     <title>Netflix</title>
 </head>
 <body>
-    
+    <section id="nav">
+        <nav>
+            <div class="nav__container">
+                <div class="nav__left">
+                    <figure class="logo">
+                        <img src="./assets/logo.svg" alt="">
+                    </figure>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <span>Browse</span>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="">Home</a>
+                            <a href="">TV Shows</a>
+                            <a href="">Movies</a>
+                            <a href="">New & Popular</a>
+                            <a href="">My List</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav__right">
+                    <div class="nav__search-bar">
+                        <form action="" class="search-bar">
+                            <input type="text" placeholder="Titles, people, genres">
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <figure>
+                        <i class="fa-solid fa-bell"></i>
+                    </figure>
+                    <div class="dropdown__user--img">
+                        <button class="user--img">
+                            <img src="./assets/user1.png" alt="">
+                        </button>
+                    </div class="dropdown__user--img">
+                </div>
+                
+            </div>
+        </nav>
+    </section>
 </body>
 </html>
+
+
